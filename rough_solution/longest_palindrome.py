@@ -20,3 +20,7 @@ if __name__ == "__main__":
     solution = Solution()
     str = 'bb'
     print(solution.longestPalindrome(str))
+
+
+# 解题思路：
+# 长度从1开始到字符串长度为止，遍历所有子串，找出符合回文字符串的最长子串

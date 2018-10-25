@@ -42,3 +42,7 @@ if __name__ == "__main__":
     result = int('-91283472332')
     print(result)
     print(solution.myAtoi('"+-1"'))
+
+
+# 解题思路：
+# 考虑多种可能的情况，"42", "   -42", "4193 with words", "words and 987", "-91283472332", "+-1", "++ c"等等
